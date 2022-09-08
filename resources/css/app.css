@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    i{
+        @apply text-custom-light-green;
+    }
+
+    li{
+        @apply leading-8;
+    }
+    h1{
+        
+    }
+    h2{
+
+    }
+    p{
+        @apply leading-8 ;
+    }
+    
+}
+
+@layer components{
+    .mainbutton{
+        @apply font-semibold bg-custom-button-purple text-white py-3 px-6 rounded-full  hover:bg-custom-yellow hover:transition-all hover:text-custom-bg-purple hover:scale-110 duration-300 ease-in-out
+         hover:rotate-3;
+    }
+}
