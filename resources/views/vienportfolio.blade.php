@@ -1,11 +1,13 @@
 @extends('layouts.menufooter')
 @section('content')
-<section class="mb-20 py-20">
+
+
+<section class="mb-0 py-20">
     <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row mx-11 md:mx-0">
             <div class="basis-5/12 ml-auto order-last lg:order-first">    
                 <p class="font-semibold" style="font-size:20px; color:#C9C3F5;">P O R T F O L I O</p>
-                <h1>Vevien T. Consolacion</h1>
+                <h1>Vevien Consolacion</h1>
                 <p class="mt-2 text-custom-subtitle-purple" style="font-size:20px!important;">Graphic Designer / Motion Graphics / Basic Web Development</p>
                 <p class="mt-8"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
                 <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:nczyabo@gmail.com"><i class="ml-2 fa-solid fa-envelope"></i></a></p> 
@@ -22,15 +24,37 @@
 <!-- Banner End-->
 
 <section class="mb-20 py-20">
-    <div class="container mx-auto overflow-auto">
-        <div class="flex flex-row justify-evenly items-center bg-custom-slight-purple rounded-3xl shadow-xl">
+    <div class="container mx-auto sm">
+        <div class="hidden lg:flex flex-row justify-evenly items-center bg-custom-slight-purple rounded-3xl shadow-xl xl:mx-auto ">
             <h4 class="text-white">Core Values</h4>
-            <img src="{{url('/img/coreval1.png')}}" alt="core value image 1" class="w-30 h-full">
-            <p>Lorem Ipsum</p>
-            <img src="{{url('/img/coreval2.png')}}" alt="core value image 2" class="w-30 h-full">
-            <p>Lorem Ipsum</p>
-            <img src="{{url('/img/coreval3.png')}}" alt="core value image 3" class="w-30 h-full">
-            <p>Lorem Ipsum</p>
+
+            <div class="flex flex-row content-center items-center">
+                <img src="{{url('/img/coreval1.png')}}" alt="core value image 1" class="w-30 h-full">
+                <p class=" text-center -ml-5">Lorem Ipsum</p>
+            </div>
+            <div class="flex flex-row content-center items-center -ml-5">
+                <img src="{{url('/img/coreval2.png')}}" alt="core value image 1" class="w-30 h-full">
+                <p class=" text-center ">Lorem Ipsum</p>
+            </div>
+            <div class="flex flex-row content-center items-center -ml-5">
+                <img src="{{url('/img/coreval3.png')}}" alt="core value image 1" class="w-30 h-full">
+                <p class=" text-center ">Lorem Ipsum</p>
+            </div>
+        </div>
+        <!-- Show up on small -->
+        <div class="flex flex-col bg-custom-slight-purple shadow-xl xl:mx-auto px-5 py-10 mx-11 rounded-xl lg:hidden">
+            <h4 class="text-white text-center">Our core values</h4>
+                <div class="px-5">
+                    <img src="{{url('/img/coreval1.png')}}" alt="core value image 1" class="mx-auto">
+                    <p class=" text-center -ml-5">Lorem Ipsum</p>
+                
+                    <img src="{{url('/img/coreval2.png')}}" alt="core value image 1" class="mx-auto">
+                    <p class=" text-center ">Lorem Ipsum</p>
+            
+                    <img src="{{url('/img/coreval3.png')}}" alt="core value image 1" class="mx-auto">
+                    <p class=" text-center ">Lorem Ipsum</p>
+                </div>
+                
         </div>
     </div> 
 </section>
@@ -38,7 +62,7 @@
 
 <section class="bg-custom-bg-purple">
     <div class="container mx-auto">
-        <div class="flex flex-col mx-11 md:mx-0 lg:flex-row justify-center gap-10">
+        <div class="flex flex-col mx-11 md:mx-auto lg:flex-row justify-center gap-10">
             <div class="basis-1/2 gap-20 md:order-last lg:order-first">
                 <h2 class="mb-10">My Background</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -46,7 +70,7 @@
             </div>    
 
             <div class="basis-1/2 gap-20 order-first">
-                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto lg:mx-auto hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
+                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto md:mx-auto hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
             </div>
              <!-- End of Half  -->
         </div>
@@ -63,10 +87,10 @@
             <br>
         </div>
 
-        <div class="mt-5 flex mx-11 md:mx-0">
-            <button class="outline outline-custom-yellow text-custom-yellow outline-1 px-5 py-1 rounded-full ">Video/Animation</button> 
-            <button class="outline outline-custom-light-blue text-custom-light-blue outline-1 ml-5 px-5 py-1 rounded-full ">Graphic Design/UI&UX</button>
-            <button class="outline outline-custom-light-green text-custom-light-green outline-1 ml-5 px-5 py-1 rounded-full ">Development</button>
+        <div class="mt-5 flex flex-col sm:flex-row mx-11 md:mx-0">
+            <button class="outline outline-custom-yellow text-custom-yellow outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">Video/Animation</button> 
+            <button class="outline outline-custom-light-blue text-custom-light-blue outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full ">Graphic Design/UI&UX</button>
+            <button class="outline outline-custom-light-green text-custom-light-green outline-1 sm:ml-5 mt-5 px-3 py-1 rounded-full ">Development</button>
         </div>
 
         <div class="grid grid-cols-2 mx-11 md:mx-0 md:grid-cols-3 lg:grid-cols-6 mt-10 content-center">
@@ -122,15 +146,15 @@
 </section>
 <!-- End Section -->
 
-<section class="mb-5 py-20">
+<section class="sm:mb-2 sm:py-5 md:mb-20 md:py-20">
     <div class="container mx-auto">
-<div class="mx-11 md:mx-0">
+<div class="mx-11">
        <h2>Some of the project I am involved</h2> 
        <p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-7 mt-10">
-            <div class="mx-auto text-center">
+       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-7 mt-20">
+            <div class="mx-auto text-center mb-10">
                 <img src="{{url('/img/p_image.png')}}" alt="Image placeholder">
-                <p>Enter your Prjoect Description here</p>
+                <p>Enter your Project Description here</p>
             </div>
             <div class="mx-auto text-center mb-10">
                 <img src="{{url('/img/p_image.png')}}" alt="Image placeholder">
@@ -141,15 +165,15 @@
                 <p>Enter your Project Description here</p>
             </div> 
             <!-- second half -->
-            <div class="mx-auto text-center">
+            <div class="mx-auto text-center mb-10">
                 <img src="{{url('/img/p_image.png')}}" alt="Image placeholder">
                 <p>Enter your Project Description here</p>
             </div>
-            <div class="mx-auto text-center">
+            <div class="mx-auto text-center mb-10">
                 <img src="{{url('/img/p_image.png')}}" alt="Image placeholder">
                 <p>Enter your Project Description here</p>
             </div>        
-            <div class="mx-auto text-center">
+            <div class="mx-auto text-center mb-10">
                 <img src="{{url('/img/p_image.png')}}" alt="Image placeholder">
                 <p>Enter your Project Description here</p>
             </div> 
@@ -157,13 +181,13 @@
     </div>
 </section>
 
-<section>
-    <div class="my-10 container mx-auto text-center py-10 bg-custom-section-purple rounded-xl shadow-xl">
+<section class="sm:mb-2 sm:py-11 md:mb-20 md:py-20">
+    <div class="container mx-auto text-center py-10 bg-custom-section-purple rounded-xl shadow-xl">
         <div class="flex flex-col justify-center mx-11 md:mx-0">
             <p> See my entire portfolio </p>
             <a href="https://www.behance.net/nikyabo"><button class="mainbutton mt-10">Visit my Behance <i class="fa-brands fa-behance"></i></button></a>
         </div>
     </div> 
 </section>
-<!-- Footer -->
 @endsection
+<!-- Footer -->

@@ -50,20 +50,20 @@
 </head>
 <body>
     <div class="sticky">
-        <nav class="container flex items-center justify-between mx-auto py-6">
-            <a href="{{route('home')}}"><span class="font-bold text-white"> Home </span></a>
-            <a href="{{route('about')}}"><span class="ml-5 font-bold text-white"> About us </span></a>
+        <nav class="container flex items-center justify-between mx-auto py-6 select-none">
+            <a draggable="false" href="{{route('home')}}"><span class="font-bold text-white"> Home </span></a>
+            <a draggable="false" href="{{route('about')}}"><span class="ml-5 font-bold text-white"> About us </span></a>
             <div class="dropdown ml-5">
                 <button class="font-bold text-white dropbtn py-5"> Our Portfolio <i class="fa-solid fa-chevron-down"></i></button>
                 <!-- dropdown content -->
                 <div class="dropdown-content bg-custom-slight-purple rounded-lg shadow-xl overflow-hidden w-52">
-                    <a href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5  py-3">Nik Yabo</a>
-                    <a href="{{route('vien')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5  py-3">Vien Consolacion</a>
+                    <a draggable="false" href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5 py-3">Nik Yabo</a>
+                    <a draggable="false" href="{{route('vien')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5  py-3">Vien Consolacion</a>
                 </div>
             </div>
             
-            <a href="/blogs"><span class="font-bold text-white ml-5"> Blogs </span></a>
-            <span class="ml-auto"><a href="{{route('contact')}}"><button class="mainbutton"> Contact us </button></a></span>
+            <a draggable="false" href="/blogs"><span class="font-bold text-white ml-5"> Blogs </span></a>
+            <span class="ml-auto"><a draggable="false" href="{{route('contact')}}"><button class="mainbutton"> Contact us </button></a></span>
         </nav>
     </div>
             
