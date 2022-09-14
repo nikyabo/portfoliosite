@@ -11,7 +11,7 @@
         <div class="sm:basis-full md:flex md:flex-row md:justify-center md:gap-20 ">
             <!-- Nik -->
             <div class="mx-11 md:mx-0">
-                <img src="{{url('/img/nik_image.png')}}" alt="cirle holder" class="shrink-0  scale-75 mx-auto sm:shrink-1 sm:scale-100 md:scale-100 hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
+                <img src="{{url('/img/Nik_image.png')}}" alt="cirle holder" class="shrink-0  scale-75 mx-auto sm:shrink-1 sm:scale-100 md:scale-100 hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
                 <p class="text-3xl mt-10 font-semibold "/>
                 <p class="text-3xl mt-10 font-semibold"> Nik Cyrell Z. Yabo</p>
                 <p class="mt-3 text-custom-subtitle-purple" > Graphic Designer / Motion Graphics / Basic Web Development </p>
@@ -32,7 +32,7 @@
             <div class="py-7 md:hidden"></div>
             <!-- Vevien -->
             <div class="mx-11 md:mx-0">
-                <img src="{{url('/img/vien_image.png')}}" alt="cirle holder" class="shrink-0  scale-75 mx-auto sm:shrink-1 sm:scale-100 md:scale-100 hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
+                <img src="{{url('/img/Vien_image.png')}}" alt="cirle holder" class="shrink-0  scale-75 mx-auto sm:shrink-1 sm:scale-100 md:scale-100 hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
                 <p class="text-3xl mt-10 font-semibold "> Vevien T. Consolacion </p>
                 <p class="mt-3 text-custom-subtitle-purple" >Digital Marketing Specialist  / Project Manager / SEO Specialist</p>
                 <div class="mt-6 mb-6 block p-6 sm:max-w-s bg-custom-slight-purple rounded-xl hover:shadow-xl hover:bg-custom-button-purple transition-all duration-200 delay-75">
