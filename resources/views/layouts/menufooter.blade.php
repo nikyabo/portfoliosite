@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="{{url('/img/favicon.png')}}">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <!-- Jquery and tailwind--> 
@@ -71,7 +72,7 @@
     @yield('content')
 
 
-    <footer class="bg-custom-footer-purple mb-0">
+    <footer class="bg-custom-footer-purple mb-auto">
         <div class="container mx-11 md:mx-auto">
             <div class="grid lg:grid-cols-4 md:grid-cols-2 py-20">
                 <!-- Column 1 -->

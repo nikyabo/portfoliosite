@@ -36,3 +36,7 @@ Route::get('/contact', function () {
 Route::get('/blogs', function () {
     return view('blogger');
 })->name('blogger');
+
+Route::get('contact/thankyou', function () {
+    return view('thankyou');
+})->name('thankyou');
