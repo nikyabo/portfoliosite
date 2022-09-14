@@ -82,7 +82,7 @@
             <div class="basis-4/12 gap-20">
             <h2 class="mb-10">Our skillset might match your need <span class="inline-block align-middle"><img src="{{url('/img/lights.png')}}" alt="dots besides title"></span> </h2>
                 <p>We have experienced many things in 3 years of working in a highly competitive digital marketing space—design practices, Marketing strategies that work, and targeting the proper leads; we have all covered.Hard to find someone that is the master of everything because that person doesn't exist. We might be the missing link to your company.<br><br> We both deliver design, development, and marketing strategies. We also keep track of your stats to make sure we are moving forward 😉</p>
-                <div><a href="/contact"><button class="mainbutton mt-10 w-full md:w-auto">See Nik's Portfolio</button></a> <a href="/contact"><button class="mainbutton mt-5 w-full md:w-auto sm:mt-5 md:ml-5">See Vevien's Portfolio</button></a></div>
+                <div><a href="{{route('nik')}}"><button class="mainbutton mt-10 w-full md:w-auto">See Nik's Portfolio</button></a> <a href="{{route('vien')}}"><button class="mainbutton mt-5 w-full md:w-auto sm:mt-5 md:ml-5">See Vevien's Portfolio</button></a></div>
             </div> <!-- End of Half  -->
         </div>
     </div>
