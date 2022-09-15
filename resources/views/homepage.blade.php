@@ -77,7 +77,7 @@
     <div class="container mx-auto py-20">
         <div class="flex flex-col mx-11 md:mx-0 lg:flex-row justify-center gap-10">
             <div class="basis-4/12 gap-20">
-                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto lg:mx-auto hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
+                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto lg:mx-auto hover:scale-105 transition-transform duration-500 delay-50 ease-in-out z-0"/>
             </div>
             <div class="basis-4/12 gap-20">
             <h2 class="mb-10">Our skillset might match your need <span class="inline-block align-middle"><img src="{{url('/img/lights.png')}}" alt="dots besides title"></span> </h2>

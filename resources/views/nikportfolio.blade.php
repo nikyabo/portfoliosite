@@ -43,7 +43,7 @@
         </div>
         <!-- Show up on small -->
         <div class="flex flex-col bg-custom-slight-purple shadow-xl xl:mx-auto px-5 py-10 mx-11 rounded-xl lg:hidden">
-            <h4 class="text-white text-center">Our core values</h4>
+            <h4 class="text-white text-center">Core values</h4>
                 <div class="px-5">
                     <img src="{{url('/img/coreval1.png')}}" alt="core value image 1" class="mx-auto">
                     <p class=" text-center -ml-5">Lorem Ipsum</p>
