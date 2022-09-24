@@ -64,8 +64,8 @@
         <!-- dropdown content -->
         <div id="dropday" class="hidden bg-custom-slight-purple rounded-lg shadow-xl overflow-hidden w-1/2 h-screen absolute">
             <span id="xmark" onclick="closeham()" class="hover:bg-red-800 text-end duration-200 pr-5"><i class="fa-light fa-circle-xmark fa-2x py-5 text-white"></i></span>
-            <a draggable="false" href="{{route('home')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5 py-3">Home</a>
-            <a draggable="false" href="{{route('about')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5  py-3">About</a>
+            <a draggable="false" href="{{route('home')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5 py-3">Home</a>
+            <a draggable="false" href="{{route('about')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5  py-3">About us</a>
             <p class="pl-5 py-3 select-none" style="font-size:16px;">Our Portfolio</p>
             <a draggable="false" href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10 py-3">Nik Cyrell Z. Yabo</a>
             <a draggable="false" href="{{route('vien')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10  py-3">Vevien T. Consolacion</a>
@@ -79,9 +79,9 @@
     <div class="hidden sm:flex">
         <nav class="container flex items-center justify-between mx-auto py-6 select-none">
             <a draggable="false" href="{{route('home')}}"><span class="font-bold text-white"> Home </span></a>
-            <a draggable="false" href="{{route('about')}}"><span class="ml-5 font-bold text-white"> About us </span></a>
-            <div class="dropdown ml-5">
-                <button class="font-bold text-white dropbtn py-5"> Our Portfolio <i class="fa-solid fa-chevron-down"></i></button>
+            <a draggable="false" href="{{route('about')}}"><span class="px-6 font-bold text-white"> About us </span></a>
+            <div class="dropdown px-3">
+                <button class="font-bold text-white dropbtn py-5"> Our Portfolio <i class="checker fa-solid fa-chevron-down"></i></button>
                 <!-- dropdown content -->
                 <div class="dropdown-content bg-custom-slight-purple rounded-lg shadow-xl overflow-hidden w-52">
                     <a draggable="false" href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5 py-3">Nik Yabo</a>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             
-            <a draggable="false" href="/blogs"><span class="font-bold text-white ml-5"> Blogs </span></a>
+            <a draggable="false" href="/blogs"><span class="font-bold text-white px-5"> Blogs </span></a>
             <span class="ml-auto"><a draggable="false" href="{{route('contact')}}"><button class="mainbutton"> Contact us </button></a></span>
         </nav>
     </div>

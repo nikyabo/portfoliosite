@@ -24,7 +24,7 @@
                         <input type="text" name="What do you want to say?" class="block px-2 py-3 w-full text-black outline-gray-700 rounded" placeholder="What do you want to say?" required>
                         <p class="mt-5">By submitting your inquiry means you have agreed to our <a href="" class="underline">Privacy Policy<a></p>
                         <button type="submit" class="fullwidthbutton mt-5 w-full">Let's talk</button>
-                        <span class="inline-block"><span class="inline-block"><p>Social Media:</p><a href="https://www.linkedin.com/in/nikyabo/"><i class="fa-brands fa-linkedin ml-4 mt-5"></i><a></span></span>
+                        <!-- <span class="inline-block"><span class="inline-block"><p>Social Media:</p><a href="https://www.linkedin.com/in/nikyabo/"><i class="fa-brands fa-linkedin ml-4 mt-5"></i><a></span></span> -->
                     </form>
                 </div>
             </div>

@@ -9,15 +9,15 @@
             <div class="basis-5/12 ml-auto order-last lg:order-first">    
                 <p class="font-semibold" style="font-size:20px; color:#C9C3F5;">P O R T F O L I O</p>
                 <h1>Vevien Consolacion</h1>
-                <p class="mt-2 text-custom-subtitle-purple" style="font-size:20px!important;">Graphic Designer / Motion Graphics / Basic Web Development</p>
+                <p class="mt-2 text-custom-subtitle-purple" style="font-size:20px!important;">Digital Marketing Specialist / Project Manager / SEO Specialist</p>
                 <p class="mt-8"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
-                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:nczyabo@gmail.com"><i class="ml-2 fa-solid fa-envelope"></i></a></p> 
-                <button class="mainbutton mt-5 px-11">Get started</button>
+                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:consolacionvien@gmail.com"><i class="mx-2 fa-solid fa-envelope"></i></a><a href="https://www.linkedin.com/in/vevien-consolacion-9b20b7187/"><i class="mx-2 fa-brands fa-linkedin"></i></a></p> 
+                <a draggable="false" href="{{route('contact')}}"><button class="mainbutton mt-5 px-11">Contact us</button></a>
                 <!-- Contact us -->
             </div>
 
             <div class="basis-1/2 order-first lg:order-last">
-                <img src="{{url('/img/circle_placeholder.svg')}}" alt="image placeholder " class="mr-auto mb-10 lg:mb-0 lg:mx-auto">
+                <img src="{{url('/img/Vien_image.png')}}" alt="image placeholder " class="mr-auto mb-10 lg:mb-0 lg:mx-auto">
             </div>
         </div>
     </div> 
@@ -67,11 +67,11 @@
             <div class="basis-1/2 gap-20 md:order-last lg:order-first">
                 <h2 class="mb-10">My Background</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                <a href="/contact"><button class="mainbutton mt-10">Read more about our history</button></a>
+                <!-- <a href="/contact"><button class="mainbutton mt-10">Read more about our history</button></a> -->
             </div>    
 
             <div class="basis-1/2 gap-20 order-first">
-                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto md:mx-auto hover:scale-105 transition-transform duration-500 delay-50 ease-in-out"/>
+                <img src="{{url('/img/imgplaceholder.png')}}" alt="cirle holder" class="mr-auto md:mx-auto"/>
             </div>
              <!-- End of Half  -->
         </div>
