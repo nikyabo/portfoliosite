@@ -13,6 +13,8 @@
     <title>@yield('title')</title>
     <!-- Jquery and tailwind--> 
     @vite('resources/css/app.css')
+    <link rel="http://teamdigital123.herokuapp.com/build/assets/app.224c07ce.css"> 
+    <link rel="https://teamdigital123.herokuapp.com/build/assets/app.224c07ce.css">
     <style>
         html{
             font-family: 'Manrope', sans-serif;  
