@@ -59,20 +59,24 @@
 <!-- Scripts -->
     <script src="https://kit.fontawesome.com/19d82403b1.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="">
 <!-- Small screen nav -->
-    <div class="sm:hidden dropdown2 ml-5 flex flex-row justify-end">
-        <button onclick="showham()" class="mx-5 mt-5font-bold text-white dropbtn py-5"> <i class="fa-solid fa-bars fa-3x text-white"></i></i></button>
+    <div class="sm:hidden dropdown2 flex flex-row justify-end">
+        <button id="hamburger" class="mx-5 font-bold text-white dropbtn py-5"> <i class="fa-solid fa-bars fa-2x text-white"></i></i></button>
         <!-- dropdown content -->
-        <div id="dropday" class="hidden bg-custom-slight-purple rounded-lg shadow-xl overflow-hidden w-1/2 h-screen absolute">
-            <span id="xmark" onclick="closeham()" class="hover:bg-red-800 text-end duration-200 pr-5"><i class="fa-light fa-circle-xmark fa-2x py-5 text-white"></i></span>
-            <a draggable="false" href="{{route('home')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5 py-3">Home</a>
-            <a draggable="false" href="{{route('about')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5  py-3">About us</a>
-            <p class="pl-5 py-3 select-none" style="font-size:16px;">Our Portfolio</p>
-            <a draggable="false" href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10 py-3">Nik Cyrell Z. Yabo</a>
-            <a draggable="false" href="{{route('vien')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10  py-3">Vevien T. Consolacion</a>
-            <a draggable="false" href="{{route('blogger')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5 py-3">Blogs</a>
-            <button class="fullwidthbuttonmobile">Contact us</button>
+        <div id="dropday" class="bg-custom-slight-purple rounded-lg shadow-xl overflow-hidden w-full h-auto absolute pb-1 z-10">
+            <div class="flex flex-col py-2">
+                <span id="xmark" class="hover:bg-red-800 text-end px-5 duration-200"><i class="fa-light fa-circle-xmark fa-2x py-2 text-white"></i></span>
+                <a draggable="false" href="{{route('home')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5 py-3"><strong>Home</strong></a>
+                <a draggable="false" href="{{route('about')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 px-5  py-3"><strong>About us</strong></a>
+                <p class="pl-5 py-3 select-none" style="font-size:16px;"><strong>Our Portfolio</strong></p>
+                <a draggable="false" href="{{route('nik')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10 py-3">Nik Cyrell Z. Yabo</a>
+                <a draggable="false" href="{{route('vien')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-10  py-3">Vevien T. Consolacion</a>
+                <a draggable="false" href="{{route('blogger')}}" class=" hover:bg-custom-button-purple hover:transition-all duration-500 pl-5 py-3"><strong>Blogs</strong></a>
+                <button class=" mx-auto mt-5 fullwidthbuttonmobile">Contact us</button>
+            </div>
+        </div>
+ 
         </div>
     </div>
 
@@ -135,17 +139,43 @@
 
     <!-- hamburger menu script -->
     <script>
-        function showham(){
-            document.getElementById("dropday").classList.remove("hidden");
-            document.getElementById("dropday").classList.add("flex","flex-col");
-        }
+        // function showham(){
+        //     document.getElementById("dropday").classList.remove("hidden");
+        //     document.getElementById("dropday").classList.add("flex","flex-col");
+        // }
 
-        function closeham(){
-            document.getElementById("dropday").classList.remove("flex","flex-col");
-            document.getElementById("dropday").classList.add("hidden");
+        // function closeham(){
+        //     document.getElementById("dropday").classList.remove("flex","flex-col");
+        //     document.getElementById("dropday").classList.add("hidden");
 
 
-        }
+        // }
+
+        $(document).ready(function(){
+            $('#dropday').hide();
+
+            $('#hamburger').on('click',function(){
+                $('#dropday').slideToggle("fast");
+                $('body').addClass("fixed");
+            });
+
+            // if($('#dropday').is(':visible')){
+            //     
+            // }
+            // else $('body').removeClass("fixed");
+
+            $('#xmark').on('click',function(){
+                $('#dropday').slideToggle("fast");
+                $('body').removeClass("fixed");
+            });
+            
+            $(window).scroll(function(){
+                if($(window).scrollTop()>0){
+                    $("").addClass("fixed");
+                }
+            });
+
+        });
     </script>
 </body>
 </html>

@@ -46,7 +46,7 @@
                         <li><i class="checker fa-solid fa-check"></i><span class="ml-2">Team Manager</span></li>
                     </ul>
                 </div>
-                <a href="{{route('nik')}}"><button class="mainbutton">See my Portfolio</button></a>
+                <a href="{{route('vien')}}"><button class="mainbutton">See my Portfolio</button></a>
             </div>
         </div>
     </div>  
