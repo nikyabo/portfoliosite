@@ -1,5 +1,5 @@
 @extends('layouts.menufooter')
-@section('title', 'Vevien's portfolio')
+@section('title', "Vevien's portfolio")
 @section('content')
 
 
