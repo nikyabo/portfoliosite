@@ -12,7 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <title>@yield('title')</title>
     <!-- Jquery and tailwind--> 
-    @vite('resources/css/app.css')
+    <!-- @vite('resources/css/app.css') -->
+    <link rel="https://teamdigital123.herokuapp.com/build/assets/app.224c07ce.css">
     <style>
         html{
             font-family: 'Manrope', sans-serif;  
