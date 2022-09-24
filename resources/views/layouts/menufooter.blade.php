@@ -13,7 +13,7 @@
     <title>@yield('title')</title>
     <!-- Jquery and tailwind--> 
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/build/assets/app.224c07ce.css"> 
+    <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/build/assets/app.108458c0.css"> 
     <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/build/assets/app.224c07ce.css">
     <style>
         html{
