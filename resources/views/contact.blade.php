@@ -1,4 +1,5 @@
 @extends('layouts.menufooter')
+@section('title', 'Contact us')
 @section('content')
 <section class="mb-20 py-20">
     <div class="container mx-auto">

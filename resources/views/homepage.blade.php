@@ -1,5 +1,5 @@
 @extends('layouts.menufooter')
-
+@section('title', 'Team Digital')
 @section('content')
 
 <section class="mb-20">

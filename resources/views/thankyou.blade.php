@@ -1,4 +1,5 @@
 @extends('layouts.menufooter')
+@section('title', 'We have received your submission')
 @section('content')
 
 

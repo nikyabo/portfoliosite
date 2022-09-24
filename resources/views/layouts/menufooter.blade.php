@@ -10,6 +10,7 @@
     <link rel="icon" href="{{url('/img/favicon.png')}}">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <title>@yield('title')</title>
     <!-- Jquery and tailwind--> 
     @vite('resources/css/app.css')
     <style>
