@@ -6,9 +6,9 @@
 <section class="py-20 bg-custom-bg-purple">
     <div class="container mx-auto text-center py-36">
         <i class="fa-solid fa-badge-check fa-8x" ></i>
-        <h1 class="mb-20 mx-11 md:mx-auto"> Blogs coming soon</h1>
-        <p>Under construction....</p>
-        <a href="{{route('home')}}" class="underline hover:text-custom-button-purple hover:transition-all duration-200 text-2xl">Go back to homepage</a>
+        <h1 class="mb-10 mx-11 md:mx-auto"> Blogs coming soon</h1>
+        <p class="mb-5">Under construction</p>
+        <a href="{{route('home')}}" class="underline hover:text-custom-button-purple hover:transition-all duration-200"><button class="mainbutton">Go back to homepage</button></a>
     </div> 
 </section>
 @endsection
