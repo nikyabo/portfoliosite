@@ -16,9 +16,9 @@
     <!-- Jquery and tailwind--> 
     <!-- @vite('resources/css/app.css') -->
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="public/css/applocal.css">
-    <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/build/assets/app.108458c0.css"> 
-    <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/build/assets/app.108458c0.css">
+    <link rel="stylesheet" href="css/applocal.css">
+    <!-- <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/build/assets/app.108458c0.css"> 
+    <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/build/assets/app.108458c0.css"> -->
     <style>
         html{
             font-family: 'Manrope', sans-serif;  
