@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <title>@yield('title')</title>
     <!-- Jquery and tailwind--> 
-    @vite('resources/css/app.css')
+    @vite('public/css/applocal.css')
     <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/build/assets/app.108458c0.css"> 
     <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/build/assets/app.108458c0.css">
     <style>
