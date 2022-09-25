@@ -22,6 +22,7 @@
             font-family: 'Manrope', sans-serif;  
             background-color:#030316;
             color:#fff;
+            overflow-x:hidden;
         }
 
         p{
