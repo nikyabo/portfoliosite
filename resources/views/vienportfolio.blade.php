@@ -13,7 +13,7 @@
                 <h1>Vevien Consolacion</h1>
                 <p class="mt-2 text-custom-subtitle-purple" style="font-size:20px!important;">Digital Marketing Specialist / Project Manager / SEO Specialist</p>
                 <p class="mt-8"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
-                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:consolacionvien@gmail.com"><i class="mx-2 fa-solid fa-envelope"></i></a><a href="https://www.linkedin.com/in/vevien-consolacion-9b20b7187/"><i class="mx-2 fa-brands fa-linkedin"></i></a></p> 
+                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:consolacionvien@gmail.com"><i class="mx-2 fa-solid fa-envelope"></i></a><a href="https://www.linkedin.com/in/vevien-consolacion-9b20b7187/" target="_blank"><i class="mx-2 fa-brands fa-linkedin"></i></a></p> 
                 <a draggable="false" href="{{route('contact')}}"><button class="mainbutton mt-5 px-11">Contact us</button></a>
                 <!-- Contact us -->
             </div>

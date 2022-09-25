@@ -13,7 +13,7 @@
                 <h1>Nik Cyrell Z. Yabo</h1>
                 <p class="mt-2 text-custom-subtitle-purple" style="font-size:20px!important;">Graphic Designer / Motion Graphics / Basic Web Development</p>
                 <p class="mt-8"> Hi, I'm Nik, and I love to learn new things constantly. I love new updates and new technologies, be it software or hardware. I started with designing and am now beginning to dwell in the developer's path because I just learned that I love coding so much. It's fun; still new to it, though, but it will get better over time 😄. </p>
-                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:nczyabo@gmail.com"><i class="mx-2 fa-solid fa-envelope"></i></a></a><a href="https://www.linkedin.com/in/nikyabo/"><i class="mx-2 fa-brands fa-linkedin"></i></a></p> 
+                <p class="mt-20 font-normal text-custom-subtitle-purple" style="font-size:20px!important;">Send me a message via email: <a href="mailto:nczyabo@gmail.com"><i class="mx-2 fa-solid fa-envelope"></i></a></a><a href="https://www.linkedin.com/in/nikyabo/" target="_blank"><i class="mx-2 fa-brands fa-linkedin"></i></a></p> 
                 <a draggable="false" href="{{route('contact')}}"><button class="mainbutton mt-5 px-11">Contact us</button></a>
                 <!-- Contact us -->
             </div>
@@ -126,7 +126,7 @@
                 <img src="{{url('/img/nik_c4d.png')}}" alt="Cinema 4D logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Cinema 4D</p>
             </div>
-            <div id="cat1" class="mx-auto">
+            <div class="cat1 mx-auto">
                 <img src="{{url('/img/nik_id.png')}}" alt="Indesign logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Indesign</p>
             </div>
