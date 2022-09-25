@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="css/applocal.css">
+    <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/css/applocal.css">
+    <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/css/applocal.css">
     <style>
         html{
             font-family: 'Manrope', sans-serif;  
