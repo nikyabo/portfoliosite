@@ -823,12 +823,12 @@ img:hover {
   margin-right: 1rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .ml-4 {
@@ -1110,6 +1110,11 @@ img:hover {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-custom-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 209 73 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1118,11 +1123,6 @@ img:hover {
 .bg-custom-footer-purple {
   --tw-bg-opacity: 1;
   background-color: rgb(4 4 13 / var(--tw-bg-opacity));
-}
-
-.bg-custom-yellow {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 209 73 / var(--tw-bg-opacity));
 }
 
 .bg-custom-light-blue {
@@ -1252,11 +1252,6 @@ img:hover {
   vertical-align: middle;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1265,6 +1260,11 @@ img:hover {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg {
@@ -1401,6 +1401,10 @@ img:hover {
   outline-color: #374151;
 }
 
+.outline-white {
+  outline-color: #fff;
+}
+
 .outline-custom-yellow {
   outline-color: #FBD149;
 }
@@ -1411,10 +1415,6 @@ img:hover {
 
 .outline-custom-light-green {
   outline-color: #0EDB7C;
-}
-
-.outline-white {
-  outline-color: #fff;
 }
 
 .transition-transform {

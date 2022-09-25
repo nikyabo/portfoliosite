@@ -94,58 +94,59 @@
             <br>
         </div>
 
-        <div class="mt-5 flex flex-col sm:flex-row mx-11 md:mx-0">
-            <button class="outline outline-custom-yellow text-custom-yellow outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">Video/Animation</button> 
-            <button class="outline outline-custom-light-blue text-custom-light-blue outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full ">Graphic Design/UI&UX</button>
-            <button class="outline outline-custom-light-green text-custom-light-green outline-1 sm:ml-5 mt-5 px-3 py-1 rounded-full ">Development</button>
+        <div class="mt-5 flex flex-col sm:flex-row mx-11 md:mx-0 tabs">
+            <button id="defaultbtn-1" class="outline outline-white text-white outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">All</button>
+            <button id="defaultbtn-2" class="outline outline-custom-yellow text-custom-yellow outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">Video/Animation</button> 
+            <button id="defaultbtn-3" class="outline outline-custom-light-blue text-custom-light-blue outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full ">Graphic Design/UI&UX</button>
+            <button id="defaultbtn-4" class="outline outline-custom-light-green text-custom-light-green outline-1 sm:ml-5 mt-5 px-3 py-1 rounded-full ">Development</button>
         </div>
 
         <div class="grid grid-cols-2 mx-11 md:mx-0 md:grid-cols-3 lg:grid-cols-6 mt-10 content-center">
-            <div class="mx-auto">
+            <div class=" cat1 mx-auto">
                 <img src="{{url('/img/nik_ps.png')}}" alt="Photoshop logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Photoshop</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat1 mx-auto">
                 <img src="{{url('/img/nik_ai.png')}}" alt="Illustrator logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Illustrator</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat1 mx-auto">
                 <img src="{{url('/img/nik_xd.png')}}" alt="XD logo" class="hover:scale-105 duration-200">
                 <p class="text-center">XD</pc>
             </div>
-            <div class="mx-auto">
+            <div class="cat2 mx-auto">
                 <img src="{{url('/img/nik_pr.png')}}" alt="Adobe Premier logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Premier</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat2 mx-auto">
                 <img src="{{url('/img/nik_ae.png')}}" alt="After Effects logo" class="hover:scale-105 duration-200">
                 <p class="text-center">After Effects</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat2 mx-auto">
                 <img src="{{url('/img/nik_c4d.png')}}" alt="Cinema 4D logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Cinema 4D</p>
             </div>
-            <div class="mx-auto">
+            <div id="cat1" class="mx-auto">
                 <img src="{{url('/img/nik_id.png')}}" alt="Indesign logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Indesign</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat1 mx-auto">
                 <img src="{{url('/img/nik_lr.png')}}" alt="Lightroom logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Lightroom</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat3 mx-auto">
                 <img src="{{url('/img/nik_html.png')}}" alt="Html css and js logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Html,CSS and JS</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat3 mx-auto">
                 <img src="{{url('/img/nik_tw.png')}}" alt="TailwindCSS logo" class="hover:scale-105 duration-200">
                 <p class="text-center">TailwindCSS</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat3 mx-auto">
                 <img src="{{url('/img/nik_laravel.png')}}" alt="Laravel logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Laravel</p>
             </div>
-            <div class="mx-auto">
+            <div class="cat2 mx-auto">
                 <img src="{{url('/img/nik_au.png')}}" alt="Audition logo" class="hover:scale-105 duration-200">
                 <p class="text-center">Audition</p>
             </div>

@@ -15,6 +15,8 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="https://teamdigital123.herokuapp.com/css/applocal.css">
     <link rel="stylesheet" href="http://teamdigital123.herokuapp.com/css/applocal.css">
+
+    <!-- @vite('resources/css/app.css') -->
     <style>
         html{
             font-family: 'Manrope', sans-serif;  
@@ -140,18 +142,6 @@
 
     <!-- hamburger menu script -->
     <script>
-        // function showham(){
-        //     document.getElementById("dropday").classList.remove("hidden");
-        //     document.getElementById("dropday").classList.add("flex","flex-col");
-        // }
-
-        // function closeham(){
-        //     document.getElementById("dropday").classList.remove("flex","flex-col");
-        //     document.getElementById("dropday").classList.add("hidden");
-
-
-        // }
-
         $(document).ready(function(){
             $('#dropday').hide();
 
@@ -207,12 +197,12 @@
                 $('.campaigntag').fadeOut();
                 $('.seotag').fadeIn();
                 $('.pmtag').fadeOut();
-                $('#seo').removeClass('outline outline-1 outline-custom-light-blue text-custom-light-blue').addClass('bg-custom-light-blue text-black')
+                $('#seo').removeClass('outline outline-1 outline-custom-light-blue text-custom-light-blue').addClass('bg-custom-light-blue text-black');
 
                 $('#all').removeClass('bg-white text-black').addClass("outline outline-1 outline-white");
                 $('#campaign').removeClass('bg-custom-yellow text-black').addClass('outline outline-1 outline-custom-yellow text-custom-yellow');
 
-                $('#project').removeClass('bg-custom-light-green text-black').addClass('outline outline-1 outline-custom-light-green text-custom-light-green')
+                $('#project').removeClass('bg-custom-light-green text-black').addClass('outline outline-1 outline-custom-light-green text-custom-light-green');
                 
             });
             $('#project').on('click',function(){
@@ -222,10 +212,56 @@
 
                 $('#all').removeClass('bg-white text-black').addClass("outline outline-1 outline-white");
                 $('#seo').removeClass('bg-custom-light-blue text-black').addClass('outline outline-1 outline-custom-light-blue text-custom-light-blue');
-                $('#campaign').removeClass('bg-custom-yellow text-white').addClass('outline outline-1 outline-custom-yellow text-custom-yellow')
+                $('#campaign').removeClass('bg-custom-yellow text-white').addClass('outline outline-1 outline-custom-yellow text-custom-yellow');
                 $('#project').removeClass('text-custom-light-green outline-custom-light-green').addClass('bg-custom-light-green text-black');
             });
 
+
+            // Nik functions
+            $('#defaultbtn-1').on('click',function(){
+                $('#defaultbtn-1').removeClass('outline outline-1 outline-white text-white').addClass('bg-white text-black');
+                $('#defaultbtn-2').removeClass('bg-custom-yellow text-black').addClass('text-custom-yellow outline outline-1 outline-custom-yellow');
+                $('#defaultbtn-3').removeClass('bg-custom-light-blue text-black').addClass('text-custom-light-blue outline outline-1 outline-custom-light-blue');
+                $('#defaultbtn-4').removeClass('bg-custom-light-green text-black').addClass('text-custom-light-green outline outline-1 outline-custom-light-green');
+
+                $('.cat1').show();
+                $('.cat2').show();
+                $('.cat3').show();
+            });
+
+
+            $('#defaultbtn-2').on('click',function(){
+                $('#defaultbtn-1').removeClass('bg-white text-black').addClass('outline outline-1 outline-white text-white');
+                $('#defaultbtn-2').removeClass('text-custom-yellow outline outline-1 outline-custom-yellow').addClass('bg-custom-yellow text-black');
+                $('#defaultbtn-3').removeClass('bg-custom-light-blue text-black').addClass('text-custom-light-blue outline outline-1 outline-custom-light-blue');
+                $('#defaultbtn-4').removeClass('bg-custom-light-green text-black').addClass('text-custom-light-green outline outline-1 outline-custom-light-green');
+
+                $('.cat1').show();
+                $('.cat2').hide();
+                $('.cat3').hide();
+            });
+
+            $('#defaultbtn-3').on('click',function(){
+                $('#defaultbtn-1').removeClass('bg-white text-black').addClass('outline outline-1 outline-white text-white');
+                $('#defaultbtn-2').removeClass('bg-custom-yellow text-black').addClass('text-custom-yellow outline outline-1 outline-custom-yellow');
+                $('#defaultbtn-3').removeClass('text-custom-light-blue outline outline-1 outline-custom-light-blue').addClass('bg-custom-light-blue text-black');
+                $('#defaultbtn-4').removeClass('bg-custom-light-green text-black').addClass('text-custom-light-green outline outline-1 outline-custom-light-green');
+
+                $('.cat1').hide();
+                $('.cat2').show();
+                $('.cat3').hide();
+            });
+
+            $('#defaultbtn-4').on('click',function(){
+                $('#defaultbtn-1').removeClass('bg-white text-black').addClass('outline outline-1 outline-white text-white');
+                $('#defaultbtn-2').removeClass('bg-custom-yellow text-black').addClass('text-custom-yellow outline outline-1 outline-custom-yellow');
+                $('#defaultbtn-3').removeClass('bg-custom-light-blue text-black').addClass('text-custom-light-blue outline outline-1 outline-custom-light-blue');
+                $('#defaultbtn-4').removeClass('text-custom-light-green outline outline-1 outline-custom-light-green').addClass('bg-custom-light-green text-black');
+
+                $('.cat1').hide();
+                $('.cat2').hide();
+                $('.cat3').show();
+            });
         });
     </script>
 </body>
