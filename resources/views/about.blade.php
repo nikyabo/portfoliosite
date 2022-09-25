@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', 'About us')
+@section('description', 'Get to know more about us')
+@section('keywords', 'Digital Marketing, Design, Development, SEO')
 @section('content')
 <section class="mb-0 py-20 bg-custom-bg-purple">
     <div class="container mx-auto">
@@ -27,7 +29,7 @@
         <div class="flex flex-col mx-11 md:mx-auto lg:flex-row justify-center gap-10">
             <div class="basis-1/2 gap-20 md:order-last lg:order-first">
                 <h2 class="mb-10">Our background</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <p class="mb-10 lg:mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
                 <!-- <a href="/contact"><button class="mainbutton mt-10">Read more about our history</button></a> -->
             </div>    
 
@@ -44,18 +46,36 @@
     <div class="container mx-auto text-center py-20">
         <div class="flex flex-col justify-center mx-11 md:mx-0">
             <h2> Follow us on Social media </h2>
-            <div class="flex flex-row gap-10 justify-center">
-                <div class="flex flex-row justify-center items-center mt-5 bg-slate-900 py-2 px-4 rounded-lg">
-                    <p class="text-2xl"> Nik : </p>
-                    <a href="https://www.linkedin.com/in/nikyabo/"><i class="mx-1 fa-brands fa-linkedin fa-2xl"></i></a>
-                    <a href="mailto:nczyabo@gmail.com"><i class="mx-1 fa-solid fa-envelope fa-2xl"></i></i></a>
+            <div class="flex flex-col md:flex-row gap-10 justify-center">
+                <div class="flex justify-center items-center mt-5 bg-slate-900 py-2 px-4 rounded-lg shrink-0">
+                    <div>
+                        <img src="{{url('/img/Nik_image.png')}}" class="w-20 h-auto mr-5" alt="nik image">
+                    </div>
+                    <!-- Nik Socialmedia -->
+                    <div class="flex flex-col items-start justify-start">
+                        <p class="mb-2 mr-4"><strong>Nik Cyrell Yabo</strong></p>
+                        <div class="mb-2">
+                            <a href="https://www.linkedin.com/in/nikyabo/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+                            <a href="mailto:nczyabo@gmail.com"><i class="mx-2 fa-solid fa-envelope fa-xl"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Vevien's social -->
+                <div class="flex justify-center items-center mt-5 bg-slate-900 py-2 px-4 rounded-lg shrink-0">
+                    <div>
+                        <img src="{{url('/img/Vien_image.png')}}" class="w-20 h-auto mr-5" alt="nik image">
+                    </div>
+                    <!-- Nik Socialmedia -->
+                    <div class="flex flex-col items-start justify-start">
+                        <p class="mb-2 mr-4"><strong>Vevien Consolacion</strong></p>
+                        <div class="mb-2">
+                            <a href="https://www.linkedin.com/in/vevien-consolacion-9b20b7187/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+                            <a href="mailto:consolacionvien@gmail.com"><i class="mx-2 fa-solid fa-envelope fa-xl"></i></i></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="flex flex-row justify-center items-center mt-5 bg-slate-900 py-2 px-4 rounded-lg">
-                    <p class="text-2xl"> Vevien : </p>
-                    <a href="https://www.linkedin.com/in/vevien-consolacion-9b20b7187/"><i class="mx-1 fa-brands fa-linkedin fa-2xl"></i></a>
-                    <a href="mailto:consolacionvien@gmail.com"><i class="mx-1 fa-solid fa-envelope fa-2xl"></i></a>
-                </div>
             </div>
         </div>
     </div>

@@ -62,7 +62,7 @@
 <!-- Scripts -->
     <script src="https://kit.fontawesome.com/19d82403b1.js" crossorigin="anonymous"></script>
 </head>
-<body class="">
+<body class="antialiased">
 <!-- Small screen nav -->
     <div class="sm:hidden dropdown2 flex flex-row justify-end">
         <button id="hamburger" class="mx-5 font-bold text-white dropbtn py-5"> <i class="fa-solid fa-bars fa-2x text-white"></i></i></button>
@@ -176,6 +176,56 @@
                 if($(window).scrollTop()>0){
                     $("").addClass("fixed");
                 }
+            });
+
+            // buttons tags
+            $('#all').on('click',function(){
+                $('.campaigntag').fadeIn();
+                $('.seotag').fadeIn();
+                $('.pmtag').fadeIn();
+
+                $('#all').removeClass('outline outline-1 outline-white').addClass('bg-white text-black')
+                $('#campaign').removeClass("bg-custom-yellow text-black").addClass('outline outline-1 outline-custom-yellow text-custom-yellow');
+                $('#seo').removeClass("bg-custom-light-blue text-custom-light-blue").addClass('outline outline-1 outline-custom-light-blue text-custom-light-blue');
+                $('#project').removeClass('bg-custom-light-green text-custom-light-green').addClass('outline outline-1 outline-custom-light-green text-custom-light-green');
+
+
+            });
+            
+            $('#campaign').on('click',function(){
+                $('.campaigntag').fadeIn();
+                $('.seotag').fadeOut();
+                $('.pmtag').fadeOut();
+                $('#campaign').removeClass('text-custom-yellow');
+                $('#campaign').addClass('bg-custom-yellow text-black');
+
+                $('#all').removeClass('bg-white text-black').addClass("outline outline-1 outline-white");
+                $('#project').removeClass('text-white bg-custom-light-green').addClass('text-custom-light-green outline outline-custom-light-green outline-1');
+
+                $('#seo').removeClass('bg-custom-light-blue text-black').addClass('outline outline-1 outline-custom-light-blue text-custom-light-blue');
+            });
+
+            $('#seo').on('click',function(){
+                $('.campaigntag').fadeOut();
+                $('.seotag').fadeIn();
+                $('.pmtag').fadeOut();
+                $('#seo').removeClass('outline outline-1 outline-custom-light-blue text-custom-light-blue').addClass('bg-custom-light-blue text-black')
+
+                $('#all').removeClass('bg-white text-black').addClass("outline outline-1 outline-white");
+                $('#campaign').removeClass('bg-custom-yellow text-black').addClass('outline outline-1 outline-custom-yellow text-custom-yellow');
+
+                $('#project').removeClass('bg-custom-light-green text-black').addClass('outline outline-1 outline-custom-light-green text-custom-light-green')
+                
+            });
+            $('#project').on('click',function(){
+                $('.campaigntag').fadeOut();
+                $('.seotag').fadeOut();
+                $('.pmtag').fadeIn();
+
+                $('#all').removeClass('bg-white text-black').addClass("outline outline-1 outline-white");
+                $('#seo').removeClass('bg-custom-light-blue text-black').addClass('outline outline-1 outline-custom-light-blue text-custom-light-blue');
+                $('#campaign').removeClass('bg-custom-yellow text-white').addClass('outline outline-1 outline-custom-yellow text-custom-yellow')
+                $('#project').removeClass('text-custom-light-green outline-custom-light-green').addClass('bg-custom-light-green text-black');
             });
 
         });

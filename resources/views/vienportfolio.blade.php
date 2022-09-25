@@ -91,59 +91,72 @@
         </div>
 
         <div class="mt-5 flex flex-col sm:flex-row mx-11 md:mx-0">
-            <button class="outline outline-custom-yellow text-custom-yellow outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">Video/Animation</button> 
-            <button class="outline outline-custom-light-blue text-custom-light-blue outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full ">Graphic Design/UI&UX</button>
-            <button class="outline outline-custom-light-green text-custom-light-green outline-1 sm:ml-5 mt-5 px-3 py-1 rounded-full ">Development</button>
+            <button id="all" class="bg-white text-black outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">All</button>
+            <button id="campaign" class="outline outline-custom-yellow text-custom-yellow outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full">Campaign tools</button> 
+            <button id="seo" class="outline outline-custom-light-blue text-custom-light-blue outline-1 mt-5 sm:ml-5 px-3 py-1 rounded-full ">SEO tools</button>
+            <button id="project" class="outline outline-custom-light-green text-custom-light-green outline-1 sm:ml-5 mt-5 px-3 py-1 rounded-full ">Project Management</button>
         </div>
 
         <div class="grid grid-cols-2 mx-11 md:mx-0 md:grid-cols-3 lg:grid-cols-6 mt-10 content-center">
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_ps.png')}}" alt="Photoshop logo">
-                <p class="text-center">Photoshop</p>
+        <div class="campaigntag mx-auto">
+                <img src="{{url('/img/vien_mbs.png')}}" alt="Linkedin Campaign manager logo">
+                <p class="text-center">Meta business suite</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_ai.png')}}" alt="Illustrator logo">
-                <p class="text-center">Illustrator</p>
+            <div class="campaigntag mx-auto">
+                <img src="{{url('/img/vien_linkedinads.png')}}" alt="Linkedin Campaign manager logo">
+                <p class="text-center">Linkedin ads</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_xd.png')}}" alt="XD logo">
-                <p class="text-center">XD</pc>
+            <div class="campaigntag mx-auto">
+                <img src="{{url('/img/vien_googleads.png')}}" alt="Google ads logo">
+                <p class="text-center">Google ads</pc>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_pr.png')}}" alt="Adobe Premier logo">
-                <p class="text-center">Premier</p>
+            <div class="campaigntag mx-auto">
+                <img src="{{url('/img/vien_bigmarker.png')}}" alt="Big Marker logo">
+                <p class="text-center">Big Marker</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_ae.png')}}" alt="After Effects logo">
-                <p class="text-center">After Effects</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_semrush.png')}}" alt="Semrush logo">
+                <p class="text-center">Semrush</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_c4d.png')}}" alt="Cinema 4D logo">
-                <p class="text-center">Cinema 4D</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_ubersuggest.png')}}" alt="Screaming frog logo">
+                <p class="text-center">Ubersuggest</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_id.png')}}" alt="Indesign logo">
-                <p class="text-center">Indesign</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_screamingfrog.png')}}" alt="Screaming frog logo">
+                <p class="text-center">Screaming frog</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_lr.png')}}" alt="Lightroom logo">
-                <p class="text-center">Lightroom</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_gkeywordplanner.png')}}" alt="Google keyword planner logo">
+                <p class="text-center">Google keyword planner</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_html.png')}}" alt="Html css and js logo">
-                <p class="text-center">Html,CSS and JS</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_agency360.png')}}" alt="Agency 360 logo">
+                <p class="text-center">Agency 360</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_tw.png')}}" alt="TailwindCSS logo">
-                <p class="text-center">TailwindCSS</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_ganalytics.png')}}" alt="Agency 360 logo">
+                <p class="text-center">Agency 360</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_laravel.png')}}" alt="Laravel logo">
-                <p class="text-center">Laravel</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_gsearchconsole.png')}}" alt="Data studio logo">
+                <p class="text-center">Google Search Console</p>
             </div>
-            <div class="mx-auto">
-                <img src="{{url('/img/nik_au.png')}}" alt="Audition logo">
-                <p class="text-center">Audition</p>
+            <div class="seotag mx-auto">
+                <img src="{{url('/img/vien_gdatastudio.png')}}" alt="Data studio logo">
+                <p class="text-center">Google Data studio</p>
+            </div>
+            <div class="pmtag mx-auto">
+                <img src="{{url('/img/vien_monday.png')}}" alt="Monday.com logo">
+                <p class="text-center">Monday</p>
+            </div>
+            <div class="pmtag mx-auto">
+                <img src="{{url('/img/vien_mteams.png')}}" alt="Microsoft Teams logo">
+                <p class="text-center">Microsoft Teams</p>
+            </div>
+            <div class="pmtag mx-auto">
+                <img src="{{url('/img/vien_office365.png')}}" alt="Microsoft Office logo">
+                <p class="text-center">Office 365</p>
             </div>
         </div> 
 </section>
