@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', "Nik's portfolio")
+@section('description',"Have a look at Nik's portfolio")
+@section('keywords',"Portfolio, Design, Web Development, Marketing Department")
 @section('content')
 
 

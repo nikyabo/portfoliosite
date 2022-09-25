@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', 'We have received your submission')
+@section('description',"Thank you for sending a message")
+@section('keywords',"Portfolio, Design,Digital Marketing , Web Development, Marketing Department")
 @section('content')
 
 

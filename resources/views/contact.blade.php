@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', 'Contact us')
+@section('description',"Let's have a non-commital talk via email or Linkedin")
+@section('keywords',"Portfolio, Design, Marketing, Web Development, Marketing Department")
 @section('content')
 <section class="mb-20 py-20">
     <div class="container mx-auto">

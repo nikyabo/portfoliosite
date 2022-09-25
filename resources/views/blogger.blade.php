@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', 'Our Blogs')
+@section('description',"Read our blogs relating to digital marketing, SEO, design and development")
+@section('keywords',"Portfolio, Design, Web Development, Marketi    ng Department")
 @section('content')
 <section class="py-20 bg-custom-bg-purple">
     <div class="container mx-auto text-center py-36">

@@ -1,5 +1,7 @@
 @extends('layouts.menufooter')
 @section('title', 'Team Digital')
+@section('description',"Welcome to Team Digital's Homepage")
+@section('keywords',"Portfolio, Design, Marketing, Web Development, Marketing Department")
 @section('content')
 
 <section class="mb-20">
