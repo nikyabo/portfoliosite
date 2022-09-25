@@ -136,7 +136,7 @@
             </div>
             <div class="seotag mx-auto">
                 <img src="{{url('/img/vien_ganalytics.png')}}" alt="Agency 360 logo">
-                <p class="text-center">Agency 360</p>
+                <p class="text-center">Google Analytics</p>
             </div>
             <div class="seotag mx-auto">
                 <img src="{{url('/img/vien_gsearchconsole.png')}}" alt="Data studio logo">
